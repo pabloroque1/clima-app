@@ -25,3 +25,12 @@ Tener instalado node y npm.
 
    ```bash
    npm test
+
+5. Probar los endpoints: 
+
+   ```bash
+   Las rutas son:
+         /v1/weather/location
+         /v1/weather/current?city
+         /v1/weather/forecast?city
+    Si no se envia ningun query param en city, la api trae por defecto la del ip.
